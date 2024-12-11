@@ -1,0 +1,141 @@
+/* General Styles */
+body {
+  background-color: #312059; /* Warna latar belakang tema gelap */
+  color: #be1616; /* Warna teks utama */
+}
+
+.navbar-brand {
+  font-weight: bold;
+  color: #ff9f43;
+}
+
+.nav-link.active, .nav-link:hover {
+  color: #ff9f43 !important; /* Warna hover pada navbar */
+}
+
+/* Hero Section */
+.hero {
+  background: url('333.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+
+.hero h1 {
+  font-size: 3rem;
+  color: #ffffff;
+  font-weight: 700;
+}
+
+.hero p {
+  font-size: 1.25rem;
+  color: #ff9f43;
+}
+/* Background di hero section */
+.hero {
+  background-image: url('333.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 100px 0;
+}
+
+/* Spasi antar produk */
+.produk .card {
+  transition: transform 0.3s;
+}
+
+.produk .card:hover {
+  transform: scale(1.05);
+}
+
+/* Style Search Bar */
+.navbar .form-control {
+  max-width: 300px;
+}
+
+/* Ikon cara top up */
+.step-icon i {
+  color: #007bff;
+}
+
+
+/* Produk Section */
+.produk h2, .layanan h2, .kontak h2 {
+  font-weight: bold;
+  color: #ff9f43;
+}
+
+.produk .card, .layanan .card, .kontak .card {
+  background-color: #1a1717; /* Warna latar belakang kartu */
+  border: none;
+}
+
+.produk .card-title {
+  color: #ff9f43;
+}
+
+.produk .card p {
+  color: #bdbdbd;
+}
+
+.produk .btn-primary {
+  background-color: #ff9f43;
+  border-color: #ff9f43;
+}
+
+.produk .btn-primary:hover {
+  background-color: #ffa654;
+  border-color: #ffa654;
+}
+
+/* Layanan Section */
+.layanan i {
+  color: #ff9f43;
+  margin-bottom: 10px;
+}
+
+.layanan h4 {
+  font-size: 1.5rem;
+  color: #ffffff;
+}
+
+.layanan p {
+  color: #f8f8f8;
+}
+.cara-topup .step-icon {
+  color: #ffcc00;
+}
+.cara-topup h5 {
+  font-weight: bold;
+}
+.cara-topup p {
+  font-size: 1rem;
+}
+
+
+/* Kontak Section */
+.kontak label {
+  color: #ff9f43;
+}
+
+.kontak input, .kontak textarea {
+  background-color: #ffffff;
+  color: #030303;
+  border: 1px solid #333;
+}
+
+.kontak button {
+  background-color: #ff9f43;
+  border-color: #ff9f43;
+}
+
+.kontak button:hover {
+  background-color: #ffa654;
+  border-color: #ffa654;
+}
